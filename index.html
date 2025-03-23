@@ -16,6 +16,15 @@
 	<link rel="stylesheet" href="styles/statistics.scss">
 	<link rel="stylesheet" href="styles/styles.css">
 
+	<style>
+		img {
+			max-width: 100%;
+		}
+
+		mark.highlight.green,
+		mark.highlight.pink {}
+	</style>
+
 	<title>Compassion | Home</title>
 </head>
 <body>
@@ -357,7 +366,7 @@
 
 	</section>
 
-	<section class="Wyatt3">
+	<section class="articles Wyatt3">
 		<article>
 			<h2>Transforming Poverty into Opportunity</h2>
 
@@ -367,29 +376,29 @@
 		</article>
 
 		<article>
-			<img src="images/pexels-mikhail-nilov-together-difference.jpg" alt="Difference"
-				width="25%"><button>Reports</button>
-			<p> ____ Aug 28, 2024</p>
-			<h3>Together for How You Can Make a Difference</h3>
+			<article>
+				<img src="images/pexels-mikhail-nilov-together-difference.jpg" alt="Difference">
+				
+				<p><mark class="highlight green">Reports</mark> &mdash; Aug 28, 2024</p>
 
-			<P>Discover how simple lifestyle changes can contribute to the global fight against climate change.
+				<h3>Together for How You Can Make a Difference</h3>
 
-			</P>
-		</article>
+				<p>Discover how simple lifestyle changes can contribute to the global fight against climate change.</p>
+			</article>
 
-		<article>
-			<img src="images/pexels-cristian-rojas- endangered.jpg" alt="endangered" width="25%">
-			<button>Tools</button>
-			<p> ____ Aug 27, 2024</p>
-			<h3>Community Action can Save Endangered Species</h3>
+			<article>
+				<img src="images/pexels-cristian-rojas- endangered.jpg" alt="endangered">
+				
+				<p><mark class="highlight pink">Tools</mark> &mdash; Aug 27, 2024</p>
 
-			<P>Learn about the threats facing our oceans and what you can do to help protect marine life.
+				<h3>Community Action Can Save Endangered Species</h3>
 
-			</P>
+				<p>Learn about the threats facing our oceans and what you can do to help protect marine life.</p>
+			</article>
 		</article>
 	</section>
 
-	<section>
+	<section class="contact">
 		<article>
 			<h2>Compassion</h2>
 
@@ -410,9 +419,7 @@
 
 			<form action="#" method="post" id="Newsletter">
 				<label for="Email">Your email address</label>
-
 				<input type="email" name="email" id="Email" placeholder="Your email address">
-
 				<input type="submit" value="Subscribe">
 			</form>
 
