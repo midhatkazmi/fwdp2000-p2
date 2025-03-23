@@ -36,11 +36,63 @@ li {
 .services {
 
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+
+}
+
+.servicesTitles {
+
+    border: 1px solid red;
+    padding: 1rem;
+    font-size: 12px;
+    /* vertical-align: middle; */
+
+}
+
+.servicesHeader {
+
+    font-size: var(--fs-xl);
 
 }
 
 .servicesTitles img {
 
     width: var(--fs-xl);
+    margin-right: 4rem;
 
 }
+/* 
+.servicesTitleOne {
+
+    margin: 2rem auto;
+
+}
+
+.servicesTitleTwo {
+
+    margin: 2rem auto;
+
+}
+
+
+.servicesTitleThree {
+
+    margin: 2rem auto;
+
+}
+
+.servicesTitleFour {
+
+    margin: 2rem auto;
+
+}
+*/
+
+.servicesDetails {
+
+    border: 1px solid blue;
+    padding: 1rem;
+    margin: 2rem auto;
+
+} 
