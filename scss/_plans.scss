@@ -1,6 +1,48 @@
 @use 'variables' as *;
 
+.plans-Wyatt2{
+    padding: 1.25rem;
+}
 .plans{
     font-size: 42px;
-    plans
+}
+.guardian{
+    background-color: $lightgray;
+    border-radius: 10px;
+}
+.green{
+    
+    font-size: 32px;
+}
+.pgreen{
+    
+    font-size: 16px;
+}
+.donateamt{
+    
+    font-size: 32px;
+}
+.button1{
+    
+    border: 1px solid #21404b;
+    border-radius: .5rem;
+    text-align: center;
+    text-decoration: none;
+    max-width: 65%;
+    padding: 1.25rem;
+    color: #21404b;
+    
+}
+.button1:hover{
+    
+
+        border-color: #0f0f0f;
+        background-color: #0f0f0f;
+        color: $white;
+    
+    }
+
+.billing{
+    
+    font-size: 16px;
 }
