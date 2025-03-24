@@ -405,10 +405,7 @@ video {
   font-family: sans-serif;
 }
 
-h2 {
-  font-size: 64px;
-}
-
-.newsletter h2 {
-  font-size: 32px;
+footer {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

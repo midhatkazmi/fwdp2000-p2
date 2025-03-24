@@ -1,14 +1,21 @@
-@use 'variables' as *;
+@use 'wyattVar' as *;
 
-h2{
-    
-    font-size: 64px;
-}
-.newsletter {
-    
-    h2 { 
-        font-size: 32px ;
-
-    }
+footer{
+    background-color: black;
+    color: white;
 
 }
+
+
+// h2{
+    
+//     font-size: 64px;
+// }
+// .newsletter {
+    
+//     h2 { 
+//         font-size: 32px ;
+
+//     }
+
+// }
