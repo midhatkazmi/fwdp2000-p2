@@ -1,5 +1,72 @@
 @use 'variables' as *;
 
 h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-size: 42px;
+}
+.poll{
+    color: $offblack;
+    padding-bottom: 1rem;
+}
+.endangerd{
+    color:$offblack;
+}
+.imground{
+    
+    border-radius: 10px;
+}
+.overlaysap {
+    position: relative;
+    display: inline-block;
+}
+
+.sapling {
+    position: relative;
+    display: inline-block;
+}
+
+.percent25 {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    font-size:40px ;
+    color: $gray;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.highlightmint{
+    background-color:#d0ffd6;
+}
+.ecofriend{
+    position: relative;
+    display: inline-block;
+}
+.causes{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #3c3c3c;
+}
+.backpack {
+    position: relative;
+    display: inline-block;
+}
+.percent33 {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    font-size:40px ;
+    color: $gray;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.eco{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: $offblack;
+}
+.tour{
+    color:$offblack;
 }

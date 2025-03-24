@@ -1,32 +1,24 @@
 @use 'variables' as *;
 
 footer{
+    font: $font-family-custom;
     background-color: black;
     color: white;
-
 }
 .navhead{
     font-size: 16px;
+   font: $font-family-custom;
 }
 .cms{
     font-size: 16px;
+    font: $font-family-custom;
 }
 .essential{
     font-size: 16px;
+    font: $font-family-custom;
 }
-
 .account{
     font-size: 16px;
+    font: $font-family-custom;
 }
-// h2{
-    
-//     font-size: 64px;
-// }
-// .newsletter {
-    
-//     h2 { 
-//         font-size: 32px ;
 
-//     }
-
-// }
