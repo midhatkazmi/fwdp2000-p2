@@ -71,4 +71,35 @@ header {
             text-align: center;
         }
     }
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
+
+        button {
+            display: none;
+        }
+
+        nav {
+            display: block;
+            position: static;
+            flex: auto;
+
+            background: none;
+            box-shadow: none;
+    
+            ul {
+                display: flex;
+                align-items: center;
+            }
+
+            li:last-child {
+                position: absolute;
+                right: 1.5rem;
+            }
+    
+            .cta {
+                margin: 0;
+            }
+        }
+    }
 }
