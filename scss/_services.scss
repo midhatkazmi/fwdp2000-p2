@@ -69,3 +69,64 @@
     }
 
 }
+
+@media (min-width: 64em ) {
+
+    .services article {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+
+        .servicesTitleOne {
+
+            grid-column: 2;
+
+        }
+
+        .servicesDetailsOne {
+
+            grid-column: 3;
+
+        }
+
+        .servicesTitleTwo {
+
+            grid-column: 2;
+
+        }
+
+        .servicesDetailsTwo {
+
+            grid-column: 3;
+
+        }
+
+        .servicesTitleThree {
+
+            grid-column: 2;
+
+        }
+
+        .servicesDetailsThree {
+
+            grid-column: 3;
+
+        }
+
+        .servicesTitleFour {
+
+            grid-column: 2;
+
+        }
+
+        .servicesDetailsFour {
+
+            grid-column: 3;
+
+        }
+
+    }
+
+
+}
