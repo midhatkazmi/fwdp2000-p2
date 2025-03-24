@@ -1,0 +1,55 @@
+@use 'variables' as *;
+
+.methodsPreservingNature {
+
+    padding: 1.25rem;
+    margin: 0 auto;
+
+    img {
+
+        max-width: 100%;
+        border-radius: 12px;
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+        margin-bottom: 3rem;
+
+    }
+
+    h2 {
+
+        margin: 2rem auto;
+        font-size: $fsLarge;
+        font-family: $fontFamily;
+        font-weight: 500;
+
+    }
+
+    
+    p {
+
+        font-family: $fontFamily;
+        font-size: $fsSmall;
+        font-weight: 300;
+        margin-bottom: 5rem;
+        // max-width: 90%;
+
+    }
+
+    article {
+
+        margin: 2rem auto;
+        max-width: 90%;
+
+    }
+
+    li {
+
+        font-size: $fsMedium;
+        font-family: $fontFamily;
+        margin: 1rem auto;
+        padding: 0;
+
+    }
+
+}

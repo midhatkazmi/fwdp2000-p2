@@ -1,0 +1,87 @@
+@use 'variables' as *;
+
+.statsStatistics {
+
+    max-width: 85%;
+    margin: 0 auto;
+    font-family: $fontFamily;
+
+    article {
+
+        // max-width: 70%;
+        margin: 5rem auto;
+
+    }
+
+}
+
+.successStatOne {
+
+    background-color: #4ea34e;
+    color: $white;
+    padding: 2rem;
+    border-radius: 12px;
+
+    p {
+
+        padding-top: 2rem;
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+}
+
+.impactStatTwo {
+
+    background-color: #d5e2bc;
+    color: $black;
+    padding: 2rem;
+    border-radius: 12px;
+
+    p {
+
+        padding-top: 2rem;
+        font-size: 18px;
+        color: #0f0f0f;
+        font-weight: 400;
+
+    }
+
+}
+
+.retentionStatThree {
+
+    background-color: #d1ffd7;
+    color: $black;
+    padding: 2rem;
+    border-radius: 12px;
+
+    p {
+
+        padding-top: 2rem;
+        font-size: 18px;
+        color: #333333;
+        font-weight: 400;
+
+    }
+
+}
+
+.satisfactionStatFour {
+
+    background-color: #daffef;
+    color: $black;
+    padding: 2rem;
+    border-radius: 12px;
+
+    p {
+
+        padding-top: 2rem;
+        font-size: 18px;
+        color: #333333;
+        font-weight: 400;
+
+    }
+
+}

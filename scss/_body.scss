@@ -1,8 +1,8 @@
 @use 'variables' as *;
 
 body {
-    background-color: $green;
-    color: white;
+    background-color: $white;
+    color: $black;
 
     @media (min-width: 768px) {
         // background-color: black;
