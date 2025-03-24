@@ -1,0 +1,35 @@
+@use 'variables' as *;
+
+.contact {
+    padding: 5rem 1rem;
+
+    background-color: $green;
+    color: $white;
+
+    .logo {
+        font-weight: 600;
+        letter-spacing: -0.0625rem;
+    }
+
+    p {
+        margin: 1rem 0;
+
+        font-size: 0.875rem;
+        line-height: 1.6;
+    }
+
+    .heading2 {
+        margin: 1rem 0;
+
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+
+    small {
+        font-size: 0.75rem;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+}
