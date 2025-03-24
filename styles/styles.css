@@ -93,6 +93,32 @@ li {
 
     border: 1px solid blue;
     padding: 1rem;
-    margin: 2rem auto;
+    padding-top: 2rem;
+    /* margin: 2rem auto; */
 
 } 
+
+.servicesDetailsOne {
+
+    margin: 1rem auto;
+
+}
+
+.servicesDetailsTwo {
+
+    margin: 5rem auto;
+
+}
+
+.servicesDetailsThree {
+
+
+
+}
+
+.servicesDetailsFour {
+
+
+
+}
+
