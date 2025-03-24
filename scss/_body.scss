@@ -1,10 +1,31 @@
 @use 'variables' as *;
 
+<<<<<<< HEAD
 body {
     background-color: $white;
     color: $black;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+>>>>>>> 27775a4daff237d7b3dd9f688ba37b9bdc368f03
 
-    @media (min-width: 768px) {
+    font-family: $font;
+}
+
+body {
+    @media screen and (min-width: $desktop) {
         // background-color: black;
     }
+}
+
+a {
+    color: currentColor;
+    
+    text-decoration: none;
+}
+
+img {
+    display: block;
 }

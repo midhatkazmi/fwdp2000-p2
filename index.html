@@ -7,7 +7,7 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,28 +19,30 @@
 </head>
 <body>
 	<header>
-		<p>Compassion</p>
+		<div>
+			<p><a href="#">Compassion</a></p>
+	
+			<button id="Nav-Btn">&#9776;</button>
+		</div>
 
-		<button>&#9776;</button>
-
-		<nav>
+		<nav id="Nav">
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Pages &#9635;</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Causes</a></li>
 				<li><a href="#">News</a></li>
-				<li><a href="#">Book an appointment</a></li>
+				<li><a class="cta" href="#">Book an appointment</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<section>
+	<section class="landing">
 		<h1>Protecting Nature, Securing Our Future</h1>
 
 		<p>Join us to protect forests, wildlife, and fight climate change. Together, we create a sustainable planet.</p>
 
-		<a href="#">Explore Causes</a>
+		<a class="button" href="#">Explore Causes</a>
 
 		<p><small>Press <strong>'Explore Causes'</strong> to confirm your acceptance of the <a href="#">Terms of Service</a>.</small></p>
 
@@ -315,21 +317,31 @@
 	<section class="partners">
 		<h2>Partnering with over 5,000 organizations to create change.</h2>
 
-		<article>
-			<img src="img/logo-blossom.svg" alt="Blossom logo">
-			<img src="img/logo-recharge.svg" alt="Recharge logo">
-			<img src="img/logo-pronature.svg" alt="ProNature logo">
-			<img src="img/logo-pinpoint.svg" alt="PinPoint logo">
-			<img src="img/logo-hitech.svg" alt="Hitech logo">
-		</article>
+		<div class="organizations">
+			<figure>
+				<img src="img/logo-blossom.svg" alt="Blossom logo">
+			</figure>
+			<figure>
+				<img src="img/logo-recharge.svg" alt="Recharge logo">
+			</figure>
+			<figure>
+				<img src="img/logo-pronature.svg" alt="ProNature logo">
+			</figure>
+			<figure>
+				<img src="img/logo-pinpoint.svg" alt="PinPoint logo">
+			</figure>
+			<figure>
+				<img src="img/logo-hitech.svg" alt="Hitech logo">
+			</figure>
+		</div>
 
-		<article>
-			<p>&#128970;&#128970;&#128970;&#128970;&#128970;</p>
+		<div class="quote">
+			<p class="stars">&#128970;&#128970;&#128970;&#128970;&#128970;</p>
 
 			<p><q>I'm proud to support a charity that values transparency and truly cares about the people it serves. Every contribution feels meaningful here.</q></p>
 
-			<p><strong>Emily Rodriguez</strong> Donor</p>
-		</article>
+			<p class="testimonial"><strong>Emily Rodriguez</strong> Donor</p>
+		</div>
 	</section>
 
 	<section class="articles Wyatt3">
@@ -365,26 +377,24 @@
 	</section>
 
 	<section class="contact">
-		<article>
-			<h2>Compassion</h2>
+		<article class="socials">
+			<h2 class="logo">Compassion</h2>
 
 			<p>Together, we promote eco-friendly initiatives, raise environmental awareness, and drive meaningful change.</p>
 
-			<nav>
-				<ul>
-					<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-facebook.svg" alt="Facebook logo"></a></li>
-					<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-linkedin.svg" alt="LinkedIn logo"></a></li>
-					<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-instagram.svg" alt="Instagram logo"></a></li>
-					<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-x.svg" alt="X (formerly known as Twitter) logo"></a></li>
-				</ul>
-			</nav>
+			<ul>
+				<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-facebook.svg" alt="Facebook logo"></a></li>
+				<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-linkedin.svg" alt="LinkedIn logo"></a></li>
+				<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-instagram.svg" alt="Instagram logo"></a></li>
+				<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-x.svg" alt="X (formerly known as Twitter) logo"></a></li>
+			</ul>
 		</article>
 
 		<article>
-			<h2>Get the Latest Environmental NewsSign Up for Green Updates</h2>
+			<h2 class="heading2">Get the Latest Environmental NewsSign Up for Green Updates</h2>
 
 			<form action="#" method="post" id="Newsletter">
-				<label for="Email">Your email address</label>
+				<label for="Email" class="screen-reader-text">Your email address</label>
 				<input type="email" name="email" id="Email" placeholder="Your email address">
 				<input type="submit" value="Subscribe">
 			</form>
@@ -497,4 +507,5 @@
 		</table> -->
 	</footer>
 </body>
+<script src="js/script.js"></script>
 </html>
