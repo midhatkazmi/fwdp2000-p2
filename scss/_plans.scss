@@ -4,45 +4,192 @@
     padding: 1.25rem;
 }
 .plans{
+    color: $offblack;
+    padding-bottom: 1.25rem;
     font-size: 42px;
 }
 .guardian{
+    padding: 1.25rem;
     background-color: $lightgray;
     border-radius: 10px;
 }
+.guardianart{
+    padding: 1.25rem;
+}
 .green{
-    
+    color: $offblack;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
     font-size: 32px;
 }
 .pgreen{
-    
+    color: $offblack;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 1.25rem;
     font-size: 16px;
 }
 .donateamt{
-    
-    font-size: 32px;
+    color: $offblack;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 1.25rem;
+    font-size: 30px;
 }
+
 .button1{
-    
+    background-color: $gray;
+    display: flex;
     border: 1px solid #21404b;
     border-radius: .5rem;
     text-align: center;
     text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     max-width: 65%;
-    padding: 1.25rem;
+    padding: 20px 32px;
     color: #21404b;
+    margin: 0;
     
 }
-.button1:hover{
-    
-
+.button1:hover{    
+padding: 1.25rem;
         border-color: #0f0f0f;
         background-color: #0f0f0f;
         color: $white;
-    
     }
-
 .billing{
-    
+    color: $offblack;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 2rem;
     font-size: 16px;
+}
+ul{
+    padding:24px;
+}
+li{
+    padding: 24px;
+    color: $darkgray;
+    line-height: 1em;
+    font-size: 16px;
+}
+.Advocateartmain{
+    padding: 1.25rem;
+}
+.Advocateart{
+    padding: 1.25rem;
+    background-color: $mint-green;
+    border-radius: 10px;
+    
+}
+.Advocate{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    font-size: 32px;
+}
+.Advocatep{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 1.25rem;
+    font-size: 16px;
+}
+
+.button2{
+    background-color:$offblack;
+    display: flex;
+    border: 1px solid #21404b;
+    border-radius: .5rem;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    max-width: 65%;
+    padding: 20px 32px;
+    color: $white;
+    margin: 0;
+    
+}
+.button2:hover{    
+padding: 1.25rem;
+        border-color: #0f0f0f;
+        background-color: #0f0f0f;
+        color: $white;
+}
+.champ4{
+    padding: 1.25rem;
+}
+.champ3{
+    padding: 1.25rem;
+    background-color: $lightgray;
+    border-radius: 10px;
+}
+.champ2{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    font-size: 32px;
+}
+.champ1{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 1.25rem;
+    font-size: 16px;
+}
+.donateamt{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 1.25rem;
+    font-size: 30px;
+}
+
+.button3{
+    background-color: $gray;
+    display: flex;
+    border: 1px solid #21404b;
+    border-radius: .5rem;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    max-width: 65%;
+    padding: 20px 32px;
+    color: #21404b;
+    margin: 0;
+    
+}
+.button3:hover{    
+padding: 1.25rem;
+        border-color: #0f0f0f;
+        background-color: #0f0f0f;
+        color: $white;
 }
