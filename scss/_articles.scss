@@ -60,4 +60,18 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-@media (min-width: 64em) {}
+@media (min-width: 64em) {
+    .articles-Wyatt3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .leader, .wave{
+        // display: flex;
+    display: grid;
+    grid-template-columns: 25% auto;
+    }
+    .imgleader{
+
+    }
+}

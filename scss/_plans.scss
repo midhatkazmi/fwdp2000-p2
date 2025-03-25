@@ -204,6 +204,16 @@ padding: 1.25rem;
         align-content: center;
         justify-content: center;
     }
+    .cards{
+        width: 75%;
+        margin-left: auto;
+    }
+    .guardianart,.Advocateartmain, .champ4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
     .button1{
         background-color: $gray;
     display: flex;

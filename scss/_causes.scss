@@ -97,4 +97,12 @@ h2{
     min-height: 200px;
     min-width: 200px;
 }
+.percent25, .percent33{
+    position: static;
+    order: -1;
+}
+.sapling, .backpack{
+    display: grid;
+    grid-template-columns: auto 25%;
+}
 }
