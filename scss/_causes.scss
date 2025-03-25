@@ -76,3 +76,25 @@ h2{
 .tour{
     color:$offblack;
 }
+@media (min-width: 64em) {
+    .header2c{
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+    }
+    .causes-Wyatt{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-column: 1 , 2;
+        gap: 20px;
+        padding: 20px;
+    }
+.imground{
+    min-height: 200px;
+    min-width: 200px;
+}
+}
