@@ -49,4 +49,20 @@
 
         border-radius: 1rem;
     }
+
+    @media screen and (min-width: $desktop) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 6.375rem 0 5rem 0;
+        }
+
+        .button {
+            margin-top: 1rem;
+        }
+    }
 }
