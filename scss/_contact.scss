@@ -89,4 +89,32 @@
             text-decoration: underline;
         }
     }
+
+    @media screen and (min-width: $desktop) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .socials {
+            .logo {
+                margin: 1rem 0;
+            }
+
+            p {
+                max-width: 50%;
+            }
+        }
+
+        form {
+            // display: grid;
+            // grid-template-columns: repeat(2, 1fr);
+            display: flex;
+            padding: 0.5rem;
+
+            border-radius: 0.5rem;
+
+            input[type=submit] {
+                max-width: fit-content;
+            }
+        }
+    }
 }
