@@ -196,4 +196,28 @@ padding: 1.25rem;
         color: $white;
         border-radius: 10px;
 }
-@media (min-width: 64em) {}
+@media (min-width: 64em) {
+    .plans{
+        text-align: left;
+        text-decoration: none;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .button1{
+        background-color: $gray;
+    display: flex;
+    border: 1px solid #21404b;
+    border-radius: .5rem;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    max-width: 65%;
+    padding: 20px 32px;
+    color: #21404b;
+    margin: 0;
+    border-radius: 10px;
+    }
+}
