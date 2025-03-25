@@ -93,13 +93,14 @@ h2{
         gap: 20px;
         padding: 20px;
     }
-.imground{
-    min-height: 200px;
-    min-width: 200px;
-}
+// .imground{
+//     min-height: 200px;
+//     min-width: 200px;
+// }
 .percent25, .percent33{
     position: static;
     order: -1;
+    font-size: 72px;
 }
 .sapling, .backpack{
     display: grid;
