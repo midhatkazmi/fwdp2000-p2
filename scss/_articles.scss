@@ -1,77 +1,93 @@
 @use 'variables' as *;
 
-.articles-Wyatt3{
+.articles-Wyatt3 {
     padding: 1.25rem
 }
 
-.transform{
+.transform {
     padding: 1.25rem;
 }
-.transformheader{
+
+.transformheader {
     font-size: 32px;
     padding-bottom: 1rem;
 }
-.transformp{
+
+.transformp {
     padding-top: 1.25rem;
-    padding-bottom: 3 .25rem;
+    padding-bottom: 3.25rem;
 }
 
-.button4{
+.button4 {
     padding: 20px 32px;
     border-color: #0f0f0f;
     background-color: #0f0f0f;
     color: $white;
     border-radius: 10px;
 }
-.imgleader{
+
+.imgleader {
 
     border-radius: 10px;
 }
-.Olive{
-   padding: 1.25rem;
+
+.Olive {
+    padding: 1.25rem;
 
 }
-.highlightolive{
+
+.highlightolive {
     padding: .5rem;
     background-color: #d5e2bc;
     border-radius: 10px;
 }
-.together{
+
+.together {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.climate{
+
+.climate {
     padding: 1.25rem;
 
 }
-.pink{
-    padding:1.25rem;
+
+.pink {
+    padding: 1.25rem;
 }
-.highlightpink{
+
+.highlightpink {
     padding: .5rem;
     background-color: #d3c0d2;
     border-radius: 10px;
 }
-.action{
+
+.action {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.threats{
+
+.threats {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
 @media (min-width: 64em) {
-    .articles-Wyatt3{
+    .articles-Wyatt3 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        
-    }
-    .leader, .wave{
-        // display: flex;
-    display: grid;
-    grid-template-columns: 25% auto;
-    }
-    .imgleader{
 
+    }
+
+    .leader,
+    .wave {
+        // display: flex;
+        display: grid;
+        grid-template-columns: 25% auto;
+    }
+
+    .transformp {
+        padding-top: 17.5rem;
+        padding-bottom: 3.25rem;
     }
 }

@@ -1,47 +1,54 @@
 @use 'variables' as *;
 
-footer{
+footer {
     font: $font-family-custom;
     background-color: black;
     color: white;
 }
-.navhead{
-    font-size: 16px;
-   font: $font-family-custom;
-}
-.cms{
-    font-size: 16px;
-    font: $font-family-custom;
-}
-.essential{
-    font-size: 16px;
-    font: $font-family-custom;
-}
-.account{
+
+.navhead {
     font-size: 16px;
     font: $font-family-custom;
 }
 
-li{
+.cms {
+    font-size: 16px;
+    font: $font-family-custom;
+}
+
+.essential {
+    font-size: 16px;
+    font: $font-family-custom;
+}
+
+.account {
+    font-size: 16px;
+    font: $font-family-custom;
+}
+
+li {
     display: block;
 }
-a{
+
+a {
     color: white;
 }
-.grid-container{
+
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     // grid-template-rows: repeat(4, auto); 
-    gap: 20px; 
+    gap: 20px;
     padding: 20px;
-    max-width: 1200px; 
+    max-width: 1200px;
     margin: 0 auto;
-} 
+}
+
 @media (min-width: 64em) {
-   .grid-container{
-    
-    grid-template-columns: repeat(4, 1fr); 
-    // grid-template-rows: repeat(4, auto); 
-} 
+    .grid-container {
+
+        grid-template-columns: repeat(4, 1fr);
+        // grid-template-rows: repeat(4, auto); 
+    }
 
 }
