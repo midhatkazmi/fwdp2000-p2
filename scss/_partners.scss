@@ -25,6 +25,11 @@
         background-color: $lightgray;
         border-radius: 0.5rem;
     }
+
+    img {
+        height: 1rem;
+        margin: 0 auto;
+    }
     
     .quote {
         margin: 1rem 0;
@@ -52,5 +57,25 @@
 
         font-size: 1.125rem;
         line-height: 1.375;
+    }
+
+    @media screen and (min-width: $desktop) {
+        h2 {
+            max-width: 50%;
+            margin: 1rem auto;
+        }
+
+        .organizations {
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        .stars {
+            margin-bottom: 2rem;
+        }
+
+        .quotation {
+            max-width: 50%;
+            margin: 1rem auto;
+        }
     }
 }
