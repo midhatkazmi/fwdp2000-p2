@@ -1,0 +1,132 @@
+@use 'variables' as *;
+
+.services {
+
+    display: block;
+    padding: 1.25rem;
+    margin: 0 auto;
+
+    a {
+
+        font-family: $fontFamily;
+        border: 1px solid #21404b;
+        border-radius: .5rem;
+        text-align: center;
+        text-decoration: none;
+        max-width: 65%;
+        padding: 1.25rem;
+        color: #21404b;
+        // margin: 3rem;
+
+    }
+
+    a:hover {
+
+        border-color: #0f0f0f;
+        background-color: #0f0f0f;
+        color: $white;
+
+    }
+
+    img {
+
+        width: $iconSizeDesktop;
+
+    }
+
+    h2 {
+
+        margin: 2rem auto;
+        font-size: 2.625rem;
+        font-family: $fontFamily;
+        font-weight: 500;
+
+    }
+
+    h3 {
+
+        font-size: $fsMedium;
+        font-family: $fontFamily;
+        font-weight: 500;
+        max-width: 50%;
+
+    }
+
+    p {
+
+        font-family: $fontFamily;
+        font-size: $fsSmall;
+        font-weight: 300;
+        max-width: 60%;
+
+    }
+
+    article {
+
+        margin: 2rem auto;
+        max-width: 90%;
+
+    }
+
+}
+
+@media (min-width: 64em ) {
+
+    .services article {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+
+        .servicesTitleOne {
+
+            grid-column: 2;
+
+        }
+
+        .servicesDetailsOne {
+
+            grid-column: 3;
+
+        }
+
+        .servicesTitleTwo {
+
+            grid-column: 2;
+
+        }
+
+        .servicesDetailsTwo {
+
+            grid-column: 3;
+
+        }
+
+        .servicesTitleThree {
+
+            grid-column: 2;
+
+        }
+
+        .servicesDetailsThree {
+
+            grid-column: 3;
+
+        }
+
+        .servicesTitleFour {
+
+            grid-column: 2;
+
+        }
+
+        .servicesDetailsFour {
+
+            grid-column: 3;
+
+        }
+
+    }
+
+
+}

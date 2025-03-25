@@ -1,6 +1,17 @@
 @use 'normalize-fwd';
 @use 'body';
+
 @use 'footer';
 @use 'causes';
 @use 'plans';
 @use 'articles';
+
+@use 'services';
+@use 'preservingNature';
+@use 'initiatingChange';
+@use "statistics";
+
+@use 'header';
+@use 'landing';
+@use 'partners';
+@use 'contact';

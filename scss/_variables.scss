@@ -1,4 +1,6 @@
 // COLORS
+$black: #000000;
+$white: #ffffff;
 $lightgray: #f8f7f7;
 $gray: #e9e9e9;
 $darkgray: #3c3c3c;
@@ -7,14 +9,23 @@ $olive: #d5e2bc;
 $mint-green: #d0ffd6;
 $mint-blue: #daffef;
 $pink: #d3c0d2;
-$white: #ffffff;
+
+
 $offblack:#0f0f0f;
+
+$black: #0f0f0f;
+
 // SHADOWS
 $shadow: 0 0.25rem 2rem #0000001a;
 
 // FONTS
+
 $font: sans-serif;
 $font-family-custom: "Plus Jakarta Sans";
+
+$font: 'Plus Jakarta Sans', sans-serif;
+
+
 // MEDIA QUERY BREAKPOINTS
 $desktop: 64em; // 1024px
 
@@ -25,3 +36,15 @@ $desktop: 64em; // 1024px
 //     list-style-type: none;
 // }
 // call using @extend %simple-ul;
+
+// services section variables:
+
+$iconSizeDesktop: 3.75rem;
+$imgSizeDesktop: 33.75rem;
+
+$fsSmall: 1rem;
+$fsMedium: 1.25rem;
+$fsLarge: 2rem;
+$fsXtraLrg: 4rem;
+
+$fontFamily: "Plus Jakarta Sans", sans-serif;

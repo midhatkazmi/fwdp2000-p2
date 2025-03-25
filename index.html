@@ -7,36 +7,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="css/style.css">
 
 	<title>Compassion | Home</title>
 </head>
 <body>
 	<header>
-		<p>Compassion</p>
+		<div>
+			<p><a href="#">Compassion</a></p>
+	
+			<button id="Nav-Btn">&#9776;</button>
+		</div>
 
-		<button>&#9776;</button>
-
-		<nav>
+		<nav id="Nav">
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Pages &#9635;</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Causes</a></li>
 				<li><a href="#">News</a></li>
-				<li><a href="#">Book an appointment</a></li>
+				<li><a class="cta" href="#">Book an appointment</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<section>
-		<h1>Protecting Nature, Securing Our Future</h1>
-
-		<p>Join us to protect forests, wildlife, and fight climate change. Together, we create a sustainable planet.</p>
-
-		<a href="#">Explore Causes</a>
-
-		<p><small>Press <strong>'Explore Causes'</strong> to confirm your acceptance of the <a href="#">Terms of Service</a>.</small></p>
+	<section class="landing">
+		<article>
+			<h1>Protecting Nature, Securing Our Future</h1>
+	
+			<div>
+				<p>Join us to protect forests, wildlife, and fight climate change. Together, we create a sustainable planet.</p>
+		
+				<a class="button" href="#">Explore Causes</a>
+		
+				<p><small>Press <strong>'Explore Causes'</strong> to confirm your acceptance of the <a href="#">Terms of Service</a>.</small></p>
+			</div>
+		</article>
 
 		<img src="img/turbine-road.jpg" alt="Car driving on road next to wind turbines">
 	</section>
@@ -121,31 +128,37 @@
 		</article> -->
 	</section>
 
-	<section class="methods preservingNature">
+	<section class="methodsPreservingNature">
 		<article class="cardOne">
-			<h2>Preserving Nature, One Step at a Time.</h2>
+			<img class="cardOneImg" src="img/solar-panels.jpg" alt="Bird's-eye view of solar panels">
 
-			<p>A thorough understanding of environmental challenges, informed by rigorous research and direct community engagement, is essential for developing targeted and effective strategies that address the most urgent ecological issues.</p>
+			<div class="left-side">
+				<h2>Preserving Nature, One Step at a Time.</h2>
 
-			<img src="img/solar-panels.jpg" alt="Bird's-eye view of solar panels">
+				<p>A thorough understanding of environmental challenges, informed by rigorous research and direct community engagement, is essential for developing targeted and effective strategies that address the most urgent ecological issues.</p>
+			</div>
+
 		</article>
 
 		<article class="cardTwo">
-			<h2>Empowering Communities for a Greener Tomorrow</h2>
+            <img src="img/lawn.jpg" alt="Image of a roofed lawn">
 
-			<p>Join us in the vital mission to protect our planet's most vulnerable ecosystems. Your involvement is crucial in ensuring a healthier and more sustainable world for future generations.</p>
+			<div class="right-side">
+				<h2>Empowering Communities for a Greener Tomorrow</h2>
 
-			<ol>
-				<li>Inspirational Campaigns</li>
-				<li>Educational Outreach</li>
-				<li>Sustainable Practices</li>
-			</ol>
+				<p>Join us in the vital mission to protect our planet's most vulnerable ecosystems. Your involvement is crucial in ensuring a healthier and more sustainable world for future generations.</p>
 
-			<img src="img/lawn.jpg" alt="Image of a roofed lawn">
+				<ol>
+					<li>Inspirational Campaigns</li>
+					<li>Educational Outreach</li>
+					<li>Sustainable Practices</li>
+				</ol>
+			</div>
 		</article>
+
 	</section>
 
-	<section class="process initiatingChange">
+	<section class="processInitiatingChange">
 		<article class="icLeft">
 			<h2>Initiating Change: Assessing Environmental Needs</h2>
 
@@ -182,26 +195,26 @@
 		</article>
 	</section>
 
-	<section class="stats statistics">
-		<article class="success statOne">
+	<section class="statsStatistics">
+		<article class="successStatOne">
 			<h2>95% Success Rate</h2>
 
 			<p>Our community programs consistently achieve a 95% success rate in meeting the needs of those we serve.</p>
 		</article>
 
-		<article class="impact statTwo">
+		<article class="impactStatTwo">
 			<h2>80,000 Lives Impacted</h2>
 
 			<p>We've positively impacted over 80,000 lives through our targeted initiatives and partnerships.</p>
 		</article>
 
-		<article class="retention statThree">
+		<article class="retentionStatThree">
 			<h2>90% Retention</h2>
 
 			<p>We proudly maintain a 90% volunteer retention rate, showcasing our strong community of committed supporters.</p>
 		</article>
 
-		<article class="satisfaction statFour">
+		<article class="satisfactionStatFour">
 			<h2>95% Satisfaction Rating</h2>
 
 			<p>Our services have earned a 95% satisfaction rating from the communities & partners we work with.</p>
@@ -311,21 +324,31 @@
 	<section class="partners">
 		<h2>Partnering with over 5,000 organizations to create change.</h2>
 
-		<article>
-			<img src="img/logo-blossom.svg" alt="Blossom logo">
-			<img src="img/logo-recharge.svg" alt="Recharge logo">
-			<img src="img/logo-pronature.svg" alt="ProNature logo">
-			<img src="img/logo-pinpoint.svg" alt="PinPoint logo">
-			<img src="img/logo-hitech.svg" alt="Hitech logo">
-		</article>
+		<div class="organizations">
+			<figure>
+				<img src="img/logo-blossom.svg" alt="Blossom logo">
+			</figure>
+			<figure>
+				<img src="img/logo-recharge.svg" alt="Recharge logo">
+			</figure>
+			<figure>
+				<img src="img/logo-pronature.svg" alt="ProNature logo">
+			</figure>
+			<figure>
+				<img src="img/logo-pinpoint.svg" alt="PinPoint logo">
+			</figure>
+			<figure>
+				<img src="img/logo-hitech.svg" alt="Hitech logo">
+			</figure>
+		</div>
 
-		<article>
-			<p>&#128970;&#128970;&#128970;&#128970;&#128970;</p>
+		<div class="quote">
+			<p class="stars">&#128970;&#128970;&#128970;&#128970;&#128970;</p>
 
-			<p><q>I'm proud to support a charity that values transparency and truly cares about the people it serves. Every contribution feels meaningful here.</q></p>
+			<p class="quotation"><q>I'm proud to support a charity that values transparency and truly cares about the people it serves. Every contribution feels meaningful here.</q></p>
 
-			<p><strong>Emily Rodriguez</strong> Donor</p>
-		</article>
+			<p class="testimonial"><strong>Emily Rodriguez</strong> Donor</p>
+		</div>
 	</section>
 
 	<section class="articles-Wyatt3">
@@ -363,26 +386,24 @@
 	</section>
 
 	<section class="contact">
-		<article>
-			<h2>Compassion</h2>
+		<article class="socials">
+			<h2 class="logo">Compassion</h2>
 
 			<p>Together, we promote eco-friendly initiatives, raise environmental awareness, and drive meaningful change.</p>
 
-			<nav>
-				<ul>
-					<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-facebook.svg" alt="Facebook logo"></a></li>
-					<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-linkedin.svg" alt="LinkedIn logo"></a></li>
-					<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-instagram.svg" alt="Instagram logo"></a></li>
-					<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-x.svg" alt="X (formerly known as Twitter) logo"></a></li>
-				</ul>
-			</nav>
+			<ul>
+				<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-facebook.svg" alt="Facebook logo"></a></li>
+				<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-linkedin.svg" alt="LinkedIn logo"></a></li>
+				<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-instagram.svg" alt="Instagram logo"></a></li>
+				<li><a href="#" target="_blank" rel="noreferrer"><img src="img/logo-x.svg" alt="X (formerly known as Twitter) logo"></a></li>
+			</ul>
 		</article>
 
 		<article>
-			<h2>Get the Latest Environmental NewsSign Up for Green Updates</h2>
+			<h2 class="heading2">Get the Latest Environmental NewsSign Up for Green Updates</h2>
 
 			<form action="#" method="post" id="Newsletter">
-				<label for="Email">Your email address</label>
+				<label for="Email" class="screen-reader-text">Your email address</label>
 				<input type="email" name="email" id="Email" placeholder="Your email address">
 				<input type="submit" value="Subscribe">
 			</form>
@@ -498,4 +519,5 @@
 		</table> -->
 	</footer>
 </body>
+<script src="js/script.js"></script>
 </html>

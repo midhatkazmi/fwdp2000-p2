@@ -1,0 +1,68 @@
+@use 'variables' as *;
+
+.landing {
+    display: flow-root;
+
+    background-color: $olive;
+
+    h1 {
+        margin: 1rem;
+
+        font-size: 2.5rem;
+        font-weight: 500;
+        letter-spacing: -0.125rem;
+    }
+
+    p {
+        margin: 1rem;
+
+        font-size: 0.875rem;
+        line-height: 1.6;
+    }
+
+    small {
+        font-size: 0.75rem;
+        
+        a {
+            text-decoration: underline;
+        }
+    }
+    
+    .button {
+        display: inline-block;
+        margin: 0 1rem;
+        padding: 1.25rem 1.75rem;
+        
+        background-color: $black;
+        color: $white;
+        border-radius: 0.5rem;
+        
+        font-size: 0.875rem;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1em;
+    }
+
+    img {
+        width: calc(100% - 2rem);
+        margin: 1rem;
+
+        border-radius: 1rem;
+    }
+
+    @media screen and (min-width: $desktop) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 6.375rem 0 5rem 0;
+        }
+
+        .button {
+            margin-top: 1rem;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+@use 'variables' as *;
+
+.partners {
+    margin: 5rem 1rem;
+
+    text-align: center;
+
+    h2 {
+        margin: 1rem;
+
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+
+    .organizations {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-top: 5rem;
+    }
+
+    figure {
+        padding: 1.75rem;
+
+        background-color: $lightgray;
+        border-radius: 0.5rem;
+    }
+
+    img {
+        height: 1rem;
+        margin: 0 auto;
+    }
+    
+    .quote {
+        margin: 1rem 0;
+        padding: 1rem 2rem;
+        
+        background-color: $lightgray;
+        border-radius: 0.5rem;
+    }
+
+    p {
+        margin: 1rem;
+    }
+
+    .stars {
+        font-size: 1.75rem;
+    }
+
+    q {
+        font-weight: 500;
+        line-height: 2;
+    }
+
+    .testimonial {
+        margin: 3rem 1rem;
+
+        font-size: 1.125rem;
+        line-height: 1.375;
+    }
+
+    @media screen and (min-width: $desktop) {
+        h2 {
+            max-width: 50%;
+            margin: 1rem auto;
+        }
+
+        .organizations {
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        .stars {
+            margin-bottom: 2rem;
+        }
+
+        .quotation {
+            max-width: 50%;
+            margin: 1rem auto;
+        }
+    }
+}

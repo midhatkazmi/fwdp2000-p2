@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-    <title>Icons/facebook</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Icons/facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icons8-facebook" transform="translate(3.000000, 3.000000)" fill="#151515">
-            <path d="M16,0 L2,0 C0.895,0 0,0.895 0,2 L0,16 C0,17.105 0.895,18 2,18 L9.621,18 L9.621,11.039 L7.278,11.039 L7.278,8.314 L9.621,8.314 L9.621,6.309 C9.621,3.985 11.042,2.718 13.116,2.718 C13.815,2.716 14.513,2.752 15.208,2.823 L15.208,5.253 L13.78,5.253 C12.65,5.253 12.43,5.787 12.43,6.575 L12.43,8.31 L15.13,8.31 L14.779,11.035 L12.414,11.035 L12.414,18 L16,18 C17.105,18 18,17.105 18,16 L18,2 C18,0.895 17.105,0 16,0 Z" id="Path"/>
-        </g>
-    </g>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_86_2)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M455.111 0H56.8889C25.4578 0 0 25.4578 0 56.8889V455.111C0 486.542 25.4578 512 56.8889 512H273.664V313.998H207.019V236.487H273.664V179.456C273.664 113.351 314.084 77.312 373.077 77.312C392.96 77.2551 412.814 78.2791 432.583 80.2987V149.419H391.964C359.822 149.419 353.564 164.608 353.564 187.022V236.373H430.364L420.38 313.884H353.109V512H455.111C486.542 512 512 486.542 512 455.111V56.8889C512 25.4578 486.542 0 455.111 0Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_86_2">
+<rect width="512" height="512" fill="white"/>
+</clipPath>
+</defs>
 </svg>

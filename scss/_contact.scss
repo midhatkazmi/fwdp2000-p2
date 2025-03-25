@@ -1,0 +1,120 @@
+@use 'variables' as *;
+
+.contact {
+    padding: 5rem 1rem;
+
+    background-color: $green;
+    color: $white;
+
+    .socials {
+        margin-bottom: 5rem;
+    }
+
+    .logo {
+        font-weight: 600;
+        letter-spacing: -0.0625rem;
+    }
+
+    p {
+        margin: 1rem 0;
+
+        font-size: 0.875rem;
+        line-height: 1.6;
+    }
+
+    ul {
+        display: flex;
+        gap: 0.5rem;
+        
+        li,
+        a {
+            display: block;
+        }
+
+        a {
+            padding: 0.5rem;
+
+            background-color: $white;
+            border-radius: 50%;
+        }
+    
+        img {
+            width: 0.75rem;
+        }
+    }
+
+    .heading2 {
+        margin: 1rem 0;
+
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+
+    form {
+        margin: 2rem 0;
+        padding: 0.75rem;
+
+        background-color: $white;
+        border-radius: 1rem;
+    }
+
+    input {
+        width: 100%;
+
+        border: none;
+
+        font-size: 0.875rem;
+        line-height: 1em;
+    }
+
+    input[type=email] {
+        padding: 1.25rem;
+    }
+
+    input[type=submit] {
+        padding: 1.25rem 1.75rem;
+
+        background-color: $black;
+        color: $white;
+        border-radius: 0.5rem;
+
+        font-weight: 600;
+        text-align: center;
+    }
+
+    small {
+        font-size: 0.75rem;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .socials {
+            .logo {
+                margin: 1rem 0;
+            }
+
+            p {
+                max-width: 50%;
+            }
+        }
+
+        form {
+            // display: grid;
+            // grid-template-columns: repeat(2, 1fr);
+            display: flex;
+            padding: 0.5rem;
+
+            border-radius: 0.5rem;
+
+            input[type=submit] {
+                max-width: fit-content;
+            }
+        }
+    }
+}

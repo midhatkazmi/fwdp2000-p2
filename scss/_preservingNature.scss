@@ -1,0 +1,133 @@
+@use 'variables' as *;
+
+.methodsPreservingNature {
+
+    padding: 1.25rem;
+    margin: 0 auto;
+
+    img {
+
+        max-width: 100%;
+        border-radius: 12px;
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+        margin-bottom: 3rem;
+
+    }
+
+    h2 {
+
+        margin: 2rem auto;
+        font-size: $fsLarge;
+        font-family: $fontFamily;
+        font-weight: 500;
+
+    }
+
+    
+    p {
+
+        font-family: $fontFamily;
+        font-size: $fsSmall;
+        font-weight: 300;
+        margin-bottom: 5rem;
+        // max-width: 90%;
+
+    }
+
+    article {
+
+        margin: 2rem auto;
+        max-width: 90%;
+
+    }
+
+    li {
+
+        font-size: $fsMedium;
+        font-family: $fontFamily;
+        margin: 1rem auto;
+        padding: 0;
+
+    }
+
+}
+
+@media (min-width: 64em) {
+
+    .methodsPreservingNature {
+
+        .cardOne {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 2rem;
+
+            img {
+
+                order: 1;
+
+            }
+
+            h2 {
+
+                margin-bottom: 7rem;
+                font-size: 2.75rem;
+
+            }
+
+            p {
+
+                font-size: 1.5rem;
+
+            }
+
+        }
+
+        .cardTwo {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 2rem;
+
+            img {
+
+                order: 0;
+
+            }
+
+            h2 {
+
+                margin-bottom: 1.25rem;
+                margin-top: 0;
+                font-size: 2.25rem;
+
+            }
+
+            p {
+
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+                order: 1;
+
+            }
+
+            ol {
+
+                padding-left: 1rem;
+
+            }
+
+            li {
+
+                font-size: 18px;
+                // padding-left: 1rem;
+
+            }
+
+        }
+
+    }
+
+}   
